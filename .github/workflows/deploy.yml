@@ -24,7 +24,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./out # Next.js 빌드 결과물이 저장되는 폴더
 
