@@ -19,8 +19,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  //output: 'export', 
-  //basePath: '/', 
+  output: 'export', 
+  basePath: '/..', 
 
   transpilePackages: ['motion'],
   webpack: (config, { dev }) => {
